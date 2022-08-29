@@ -1,0 +1,18 @@
+# Train
+class Train
+  attr_accessor number: Integer
+
+  attr_accessor size: Integer
+
+  attr_accessor speed: Integer
+
+  attr_accessor route: untyped
+
+  attr_reader type: Symbol
+
+  def initialize: (?::Integer number, ?::Symbol `type`, ?::Integer size) -> void
+
+  def attach: () -> untyped
+
+  def type=: (Symbol `type`) -> untyped
+end

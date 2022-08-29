@@ -1,0 +1,10 @@
+# Route
+class Route
+  def initialize: (?::Station? start_station, ?::Station? end_station) -> void
+
+  def routes: () -> Array[Hash[String, Station]]
+
+  def insert: (Station station) -> void
+
+  def delete: (Station station) -> void
+end

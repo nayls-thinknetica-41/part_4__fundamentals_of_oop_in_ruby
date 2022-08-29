@@ -1,0 +1,11 @@
+# Station
+class Station
+  attr_accessor name: String
+
+  def initialize: (?::String name, ?::Array[Train] trains) -> void
+
+  def trains: () -> Array[Train]
+
+  def arrivale: (?::Train train) -> Array[Train]
+  def departure: (?::Train|::Integer arg) -> Array[Train]
+end
